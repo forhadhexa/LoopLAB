@@ -1,0 +1,121 @@
+
+
+
+
+:root {
+    --base-color: #333;
+}
+
+body{
+    background-color: var(--base-color); 
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* navbar css start */
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7;
+}
+
+/* head section css start */
+#home-section{
+    background: url('../img/home.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+
+#home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px;
+}
+
+#home-section i {
+    background-color: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.card-opacity {
+    opacity: 0.8;
+}
+#home-section .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+/* head section css end */
+
+/* Explore Main section css start */
+.explore-list i {
+    background-color: #191919;
+    color: #fff;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+/* Explore Main  section css end */
+
+/* Cerate Main Css Section Start */
+.create-list i {
+    background-color: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+/* Cerate Main Css Section End */
+
+/* Share Main Css Section Start */
+.share-list i {
+    background-color: #191919;
+    color: #fff;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+/* Share Main Css Section End */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #home-section h1 {
+        font-size: 35px;
+    }
+    #home-section i {
+        font-size: 20px;
+    }
+    #home-section .home-inner {
+        padding-top: 100px;
+    }
+
+    #explore-main-sectnio h3 {
+        padding-top: 30px;
+    }
+    #explore-main-sectnio .explore-list i {
+        font-size: 20px;
+    }
+    #share-main-section h3 {
+        padding-top: 30px;
+    }
+    #explore-main-section .share-list i {
+        font-size: 20px;
+    }
+
+}
+
